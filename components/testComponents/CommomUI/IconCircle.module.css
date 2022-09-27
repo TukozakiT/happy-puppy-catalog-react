@@ -1,0 +1,18 @@
+.icon{
+    width:25px !important;
+}
+
+.background{
+    background-color: var(--cor-teste-principal);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
