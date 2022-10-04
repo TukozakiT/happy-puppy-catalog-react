@@ -5,8 +5,8 @@ import dog from "../../../public/icons/icons8-dog-64.png";
 import fish from "../../../public/icons/icons8-fish-48.png";
 import hamster from "../../../public/icons/icons8-hamster-64.png";
 import horse from "../../../public/icons/icons8-horse-64.png";
-import hummingbird from "../../../public/icons/icons8-hummingbird-48.png";
-import pottedplant from "../../../public/icons/icons8-potted-plant-48.png";
+import hummingBird from "../../../public/icons/icons8-hummingbird-48.png";
+import pottedPlant from "../../../public/icons/icons8-potted-plant-48.png";
 import pterodactyl from "../../../public/icons/icons8-pterodactyl-48.png";
 import rabbit from "../../../public/icons/icons8-rabbit-64.png";
 
@@ -23,8 +23,8 @@ const Icon = ({ iconName} : IconProps) => {
     if(iconName === 'fish') iconSrc = fish;
     if(iconName === 'hamster') iconSrc = hamster;
     if(iconName === 'horse') iconSrc = horse;
-    if(iconName === 'hummingbird') iconSrc = hummingbird;
-    if(iconName === 'pottedplant') iconSrc = pottedplant;
+    if(iconName === 'hummingBird') iconSrc = hummingBird;
+    if(iconName === 'pottedPlant') iconSrc = pottedPlant;
     if(iconName === 'pterodactyl') iconSrc = pterodactyl;
     if(iconName === 'rabbit') iconSrc = rabbit;
 
