@@ -20,8 +20,7 @@ interface ButtonProps {
 
 function getIcon(iconName: string) {
   if (iconName == "cart") return cart;
-
-  return cart;
+  return "no icon";
 }
 
 export default ButtonIcon;
