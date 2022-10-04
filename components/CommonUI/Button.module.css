@@ -1,0 +1,19 @@
+.button {
+  padding: 1rem 2rem;
+  background-color: var(--color--primary);
+  border: none;
+  border-radius: var(--borderRadius--mobile);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--color--primary-light);
+  font-weight: 600;
+}
+.button:active {
+  background-color: var(--color--primary-grey);
+  color: var(--color--primary-light);
+}

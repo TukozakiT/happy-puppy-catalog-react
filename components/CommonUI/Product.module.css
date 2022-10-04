@@ -1,0 +1,31 @@
+.productCard {
+  width: 300px;
+  height: 100%;
+  max-height: 550px;
+
+  padding: 1rem;
+  background-color: var(--color--white);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: var(--borderRadius--desktop);
+}
+.productCard_description {
+  height: 100px;
+  overflow: hidden;
+}
+
+.productTag {
+  display: flex;
+  background-color: var(--color--primary-transparency);
+  width: 13rem;
+  border-radius: var(--borderRadius--rounded);
+  padding: 0.5rem 0 0.5rem 1rem;
+  align-items: center;
+}
+
+.productTag p {
+  margin: 0;
+}
+
+.productTag_dot {
+  color: var(--color--analogue-ocean);
+}

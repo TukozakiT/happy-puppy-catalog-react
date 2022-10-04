@@ -6,10 +6,22 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-:root{
-  --cor-teste-principal:#aa66cc;
-  --cor-teste-secundaria:#59aa88;
+:root {
+  --color--primary: #58a5ff;
+  --color--primary-saturation: #4785cc;
+  --color--primary-light: #a6cfff;
+  --color--primary-dark: #2d5380;
+  --color--primary-grey: #536880;
+  --color--primary-transparency: #58a6ff31;
+  --color--analogue-aqua: #4dfeff;
+  --color--analogue-ocean: #46bce8;
+  --color--analogue-bluetiful: #4667e8;
+  --color--analogue-purple: #584dff;
+  --color--white: #fff;
 
+  --borderRadius--desktop: 0.25rem;
+  --borderRadius--mobile: 0.5rem;
+  --borderRadius--rounded: 1.5rem;
 }
 
 a {
