@@ -12,13 +12,16 @@ body {
   --color--primary-light: #a6cfff;
   --color--primary-dark: #2d5380;
   --color--primary-grey: #536880;
+  --color--primary-transparency: #58a6ff31;
   --color--analogue-aqua: #4dfeff;
   --color--analogue-ocean: #46bce8;
   --color--analogue-bluetiful: #4667e8;
   --color--analogue-purple: #584dff;
+  --color--white: #fff;
 
-  --borderRadius--destkop: 0.25rem;
+  --borderRadius--desktop: 0.25rem;
   --borderRadius--mobile: 0.5rem;
+  --borderRadius--rounded: 1.5rem;
 }
 
 a {
