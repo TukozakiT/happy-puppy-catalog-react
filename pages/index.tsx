@@ -4,6 +4,7 @@ import Layout from "../components/layout_template/layout";
 import Button from "../components/CommonUI/Button";
 import ButtonIcon from "../components/CommonUI/ButtonIcon";
 import ProductCard from "../components/CommonUI/ProductCard";
+import ProductListContainer from "../components/CommonUI/ProductListContainer";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
       <h1 className={styles.classeTeste}>Nossa página</h1>
       <Button buttonTxt={"Attempt 1"} />
       <ButtonIcon buttonTxt={"Attempt Icon"} icon="cart" />
-      <ProductCard />
+      <ProductListContainer />
     </Layout>
   );
 };
